@@ -3,12 +3,12 @@
 <p align="center"> Originally Compiled With G++ (GNU/GCC) 
 <p>
 
-Setup:
-<p>
-Run: `g++ -o inject inject.cpp`
+Setup: Run 
+```bash
+g++ -o inject inject.cpp```
 <p>
 
 Usage:
-<p> 
-`inject <File> <Line Number> <Content,...>`
+```bash 
+inject <File> <Line Number> <Content,...>```
 <p> 

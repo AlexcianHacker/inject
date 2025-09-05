@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 		return -2; // Not Enough Args 
 	} 
 	std::ifstream file(argv[1]);
-        std::string* pHemp = new std::string("temp_"); 
+ std::string* pHemp = new std::string("temp_"); 
 	*pHemp+=argv[1]; 
 	const char* THEMP = (*pHemp).c_str(); 
 	delete pHemp; 

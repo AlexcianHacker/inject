@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 		std::cout << "Invalid, Not Enough Arguments; Run --help For More Info. \n"; 
 		return -2; // Not Enough Args 
 	} 
-	std::ifstream file(argv[1]);
+	std::ifstream file(argv[1]); 
  std::string* pHemp = new std::string("temp_"); 
 	*pHemp+=argv[1]; 
 	const char* THEMP = (*pHemp).c_str(); 

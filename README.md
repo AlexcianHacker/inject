@@ -5,5 +5,7 @@
 ### Setup  
 Run `g++ -o inject inject.cpp`
 
+Note (GCC): -O3 Optimizations Tested As Working. 
+
 ### Usage  
 `inject <File> <Line Number> <Content,...>`
